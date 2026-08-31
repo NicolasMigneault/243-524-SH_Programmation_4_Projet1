@@ -50,6 +50,9 @@ def creer_table_matiere(fichier):
                 elif element.level == 5:
                     table += f"        - [{titre}](#{lien})\n"
 
+                elif element.level == 6:
+                    table += f"          - [{titre}](#{lien})\n"
+
     # Insérer la table après le marqueur
     texte = texte.replace(
         "**contenu:**",
