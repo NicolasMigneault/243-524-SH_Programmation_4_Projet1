@@ -1,6 +1,6 @@
 ## Product Backlog
 
-Script Python qui lit un document Markdown, s'il y a le terme \*\*contenu:\*\* dans le document, il y aura création d'une table des matières avec titres et lien d'accès rapide.
+Script Python qui lit un document Markdown, s'il y a le terme \*\*contenu:\*\* dans le document, il y aura création d'une table des matières avec titres et liens d'accès rapide.
 S'il existe déjà une table, effacer l'ancienne et la remplacer avec la version à jour.
 
 
