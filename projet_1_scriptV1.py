@@ -24,7 +24,7 @@ def creer_table_matiere(fichier):
 
         if isinstance(element, Heading):
 
-            if element.level == 2 or element.level == 3:
+            if element.level == 2 or element.level == 3 or element.level == 4 or element.level == 5 or element.level == 6:
 
                 titre = ""
 
