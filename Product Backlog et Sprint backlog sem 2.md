@@ -14,7 +14,7 @@ S'il existe déjà une table, effacer l'ancienne et la remplacer avec la version
 | 3. récupère le nom des Headers et l'insère dans la table | élevée |
 | 4. modifie le document | élevée |
 | 5. détection si table des matières existante et overwrite | moyenne |
-| 6. créer le lien d'accès rapide |	moyenne	|
+| 6. créer les liens d'accès rapide |	moyenne	|
 | 7. ajout de la configuration des niveaux de Headers à ajouter | basse |
 
 
