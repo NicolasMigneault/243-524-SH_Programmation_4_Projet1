@@ -34,10 +34,21 @@ def creer_table_matiere(fichier):
 
                 lien = titre.lower().replace(" ", "-")
 
-                if element.level == 2:
+                # Ajouter le titre dans la table
+                if element.level == 1:
                     table += f"- [{titre}](#{lien})\n"
-                else:
+
+                elif element.level == 2:
                     table += f"  - [{titre}](#{lien})\n"
+
+                elif element.level == 3:
+                    table += f"    - [{titre}](#{lien})\n"
+
+                elif element.level == 4:
+                    table += f"      - [{titre}](#{lien})\n"
+
+                elif element.level == 5:
+                    table += f"        - [{titre}](#{lien})\n"
 
     # Insérer la table après le marqueur
     texte = texte.replace(
