@@ -56,7 +56,7 @@ def creer_table_matiere(fichier):
     # Insérer la table après le marqueur
     texte = texte.replace(
         "**contenu:**",
-        "**contenu:**\n\n" + table,
+        "" + table,
         1
     )
 
