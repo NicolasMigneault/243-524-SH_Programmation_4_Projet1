@@ -68,3 +68,15 @@ def creer_table_matiere(fichier):
 
 
 creer_table_matiere("projet_1_markdown.md")
+
+
+# Envoie du document Markdown modifié à la fonction de rendu HTML
+with open('projet_1_markdown.md', 'r') as fin:
+    rendered = mistletoe.markdown(fin)  
+    print(rendered)
+    fin.close()
+
+# Écriture du rendu HTML dans un fichier de sortie
+with open('projet_1_markdown.md.html', 'w', encoding='utf-8') as fout:
+    fout.write(rendered)
+    fout.close()
